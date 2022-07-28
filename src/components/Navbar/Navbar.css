@@ -1,0 +1,7 @@
+p {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.active-link {
+  text-decoration: underline;
+}
