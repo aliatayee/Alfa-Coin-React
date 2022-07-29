@@ -1,3 +1,15 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
 .icon-coin {
   max-width: none;
+}
+
+.coin-card {
+  height: 100%;
+}
+
+nav {
+  height: 5rem;
 }

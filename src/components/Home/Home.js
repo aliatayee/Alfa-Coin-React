@@ -1,9 +1,9 @@
 import { React } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
-import { Link } from 'react-router-dom';
 import FetchCoins from '../../Redux/api';
 import Coin from '../Coin/Coin';
 import { SetCoins } from '../../Redux/Coins/Coins';
+import Navbar from '../Navbar/Navbar';
 
 const Home = () => {
   const coins = useSelector((state) => state.coins);
@@ -22,13 +22,15 @@ const Home = () => {
   }
 
   return (
-    <div className="m-5 grid md:grid-cols-4 sm:grid-cols-2  grid-cols-2 gap-2 ">
-      {coins.map((coin) => (
-        <Link to={`/coin/${coin.uuid}`} key={coin.uuid}>
-          {' '}
+    <div>
+      <Navbar />
+      <div className="m-5 grid md:grid-cols-4 sm:grid-cols-2  grid-cols-2 gap-2 ">
+        {coins.map((coin) => (
+
           <Coin key={coin.uuid} coin={coin} />
-        </Link>
-      ))}
+
+        ))}
+      </div>
     </div>
   );
 };
