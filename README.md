@@ -1,70 +1,73 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# AlFa Coin
+AlFa Coin is a crypto mobile web app based on react and redux where you can track and find real time information about most popular cryptos based on statistics. 
+## Major Technologies
+- [ ] HTML5
+- [ ] CSS
+- [ ] Tailwind CSS
+- [ ] JAVASCRIPT
+- [ ] REACT
+- [ ] REDUX
+- [ ] NPM
+### Demo
+Coming Soon
+### Install & Setup
 
-## Available Scripts
+To setup and install this sample Leaderboard project, follow the below steps:
+- Clone this project by the command: 
 
-In the project directory, you can run:
+```
+$ git clone https://github.com/aliatayee/react-capstone
+```
 
-### `npm start`
+- Then switch to the project folder by the bellow query:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+```
+$ cd react-capstone
+```
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- Then run the below command to install dependencies
 
-### `npm test`
+```
+$ npm i
+```
+- Finally, run the below command to start the project.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```
+$ npm start
+```
+- You can test the app by running the following command:
 
-### `npm run build`
+```
+$ npm run test
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Run tests 
+To run the tests for linters locally, you must have node installed on your computer. Install the necessary packages. Run npx stylelint "*/.{css,scss}" Run npx hint . Run npx eslint .
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Prerequisites
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- IDE to edit and run the code (We use Visual Studio Code 🔥).
+- Git to versionning your work.
 
-### `npm run eject`
+### Authors
+👤 **Ali**
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- GitHub: [@aliatayee](https://github.com/aliatayee)
+- Twitter: [@aqaatayee](https://twitter.com/aqaatayee)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## 🤝 Contributing
+Contributions, issues, and feature requests are welcome!
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Feel free to check the [issues page](../../issues/).
 
-## Learn More
+## Show your support
+Give a ⭐️ if you like this project!
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Acknowledgments
+- (CoinRank Api)[https://rapidapi.com/Coinranking/api/coinranking1/]
+- Original Design Idea by: (Nelson Sakwa on Behance)[https://www.behance.net/sakwadesignstudio]
+- Hat tip to anyone whose code was used
+- Inspiration
+- etc
