@@ -10,7 +10,11 @@ AlFa Coin is a crypto mobile web app based on react and redux where you can trac
 - [ ] REDUX
 - [ ] NPM
 ### Demo
-[Live Demo](https://alfacoin.netlify.app/)
+Coming Soon
+
+### Screenshots
+![](./public/images/mock.jpg)
+
 ### Install & Setup
 
 To setup and install this sample Leaderboard project, follow the below steps:
@@ -66,8 +70,8 @@ Feel free to check the [issues page](../../issues/).
 Give a ⭐️ if you like this project!
 
 ## Acknowledgments
-- [CoinRank Api](https://rapidapi.com/Coinranking/api/coinranking1/)
-- Original Design Idea by: [Nelson Sakwa on Behance](https://www.behance.net/sakwadesignstudio)
+- (CoinRank Api)[https://rapidapi.com/Coinranking/api/coinranking1/]
+- Original Design Idea by: (Nelson Sakwa on Behance)[https://www.behance.net/sakwadesignstudio]
 - Hat tip to anyone whose code was used
 - Inspiration
 - etc
