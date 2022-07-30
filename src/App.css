@@ -2,6 +2,14 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
+.dark {
+  --clr-bg: #181a20;
+}
+
+body {
+  background-color: #f5f5f5;
+}
+
 .icon-coin {
   max-width: none;
 }
