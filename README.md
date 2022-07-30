@@ -10,7 +10,7 @@ AlFa Coin is a crypto mobile web app based on react and redux where you can trac
 - [ ] REDUX
 - [ ] NPM
 ### Demo
-Coming Soon
+[Live Demo](https://alfacoin.netlify.app/)
 
 ### Screenshots
 ![](./public/images/mock.jpg)
@@ -21,13 +21,13 @@ To setup and install this sample Leaderboard project, follow the below steps:
 - Clone this project by the command: 
 
 ```
-$ git clone https://github.com/aliatayee/react-capstone
+$ git clone https://github.com/aliatayee/AlFa-Coin-React.git
 ```
 
 - Then switch to the project folder by the bellow query:
 
 ```
-$ cd react-capstone
+$ cd AlFa-Coin-React
 ```
 
 - Then run the below command to install dependencies
