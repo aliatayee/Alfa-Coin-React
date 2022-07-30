@@ -15,12 +15,12 @@ const CoinDetail = () => {
   }, []);
   return (
     <div>
-      <NavbarDetails />
+      <NavbarDetails coin={coinDetail} />
       <div className="flex justify-center">
         <CoinChart />
       </div>
       <div className="flex flex-col items-center p-5 ">
-        <div className=" p-3 border rounded shadow-md flex w-full md:w-6/12 mb-5 justify-between">
+        <div className=" p-3 border rounded bg-white shadow-md flex w-full md:w-6/12 mb-5 justify-between">
           <div className=""> Name  </div>
           <div className="">
             {' '}
@@ -28,7 +28,7 @@ const CoinDetail = () => {
             {' '}
           </div>
         </div>
-        <div className=" p-3 border rounded shadow-md flex w-full md:w-6/12 mb-5 justify-between">
+        <div className=" p-3 border rounded bg-white shadow-md flex w-full md:w-6/12 mb-5 justify-between">
           <div className=""> Symbol  </div>
           <div className="">
             {' '}
@@ -36,7 +36,7 @@ const CoinDetail = () => {
             {' '}
           </div>
         </div>
-        <div className=" p-3 border rounded shadow-md flex w-full md:w-6/12 mb-5 justify-between">
+        <div className=" p-3 border rounded bg-white shadow-md flex w-full md:w-6/12 mb-5 justify-between">
           <div className=""> Market Cap  </div>
           <div className="">
             {' '}
@@ -44,7 +44,7 @@ const CoinDetail = () => {
             {' '}
           </div>
         </div>
-        <div className=" p-3 border rounded shadow-md flex w-full md:w-6/12 mb-5 justify-between">
+        <div className=" p-3 border rounded bg-white shadow-md flex w-full md:w-6/12 mb-5 justify-between">
           <div className=""> Change  </div>
           <div className="">
             {' '}

@@ -22,7 +22,7 @@ const Home = () => {
   }
 
   return (
-    <div>
+    <div className="root">
       <Navbar />
       <div className="m-5 grid md:grid-cols-4 sm:grid-cols-2  grid-cols-2 gap-2 ">
         {coins.map((coin) => (
