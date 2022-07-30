@@ -1,6 +1,6 @@
 
-# AlFa Coin
-AlFa Coin is a crypto mobile web app based on react and redux where you can track and find real time information about most popular cryptos based on statistics. 
+# Alfa Coin
+Alfa Coin is a crypto mobile web app based on react and redux where you can track and find real time information about most popular cryptos based on statistics. 
 ## Major Technologies
 - [ ] HTML5
 - [ ] CSS
@@ -21,13 +21,13 @@ To setup and install this sample Leaderboard project, follow the below steps:
 - Clone this project by the command: 
 
 ```
-$ git clone https://github.com/aliatayee/AlFa-Coin-React.git
+$ git clone https://github.com/aliatayee/Alfa-Coin-React.git
 ```
 
 - Then switch to the project folder by the bellow query:
 
 ```
-$ cd AlFa-Coin-React
+$ cd Alfa-Coin-React
 ```
 
 - Then run the below command to install dependencies
